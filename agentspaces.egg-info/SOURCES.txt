@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+agentspaces/__init__.py
+agentspaces/agent.py
+agentspaces/bus.py
+agentspaces/contracts.py
+agentspaces/logging.py
+agentspaces/memory.py
+agentspaces/tools.py
+agentspaces.egg-info/PKG-INFO
+agentspaces.egg-info/SOURCES.txt
+agentspaces.egg-info/dependency_links.txt
+agentspaces.egg-info/requires.txt
+agentspaces.egg-info/top_level.txt
+agentspaces/examples/__init__.py
+agentspaces/examples/echo_pipeline.py
+tests/test_smoke.py

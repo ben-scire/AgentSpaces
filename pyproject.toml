@@ -1,0 +1,24 @@
+[project]
+name = "agentspaces"
+version = "0.1.0"
+description = "AgentSpaces is a minimal framework for orchestrating autonomous agents via typed message passing."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.6,<3.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=7.4,<8.0",
+]
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
