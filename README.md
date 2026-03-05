@@ -1,4 +1,4 @@
-# Inspired by message-passing patterns used in Icarus AgentSpaces communication workflow
+# Inspired by message-passing patterns used in AgentSpaces communication workflow
 
 # AgentSpaces
 
